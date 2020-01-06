@@ -39,7 +39,7 @@ class Flow {
     }
     
     private func routeNext(_ question: String, _ answer: String) {
-        if let curentQuestionIndex = questions.index(of: question) {
+        if let curentQuestionIndex = questions.firstIndex(of: question) {
             result[question] = answer
             let nextQuestionIndex = curentQuestionIndex + 1
             if nextQuestionIndex < questions.count {
