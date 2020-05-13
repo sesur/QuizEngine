@@ -21,15 +21,4 @@ public enum Question<T: Hashable>: Hashable {
         }
     }
     
-   public static func ==(lhs: Question<T>, rhs: Question<T>) -> Bool {
-        switch (lhs, rhs) {
-        case (.singleSelection(let a), .singleSelection(let b)):
-            return a == b
-        case (.multipleSelection(let a), .multipleSelection(let b)):
-            return a == b
-        default:
-            return false
-        }
-    }
-    
 }
