@@ -25,8 +25,6 @@
 		CA4E39162434DDF500358485 /* GameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4E3847242F79AA00358485 /* GameTest.swift */; };
 		CA6A382F2468A7D900D3E269 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A382E2468A7D900D3E269 /* Question.swift */; };
 		CA6A38302468A7D900D3E269 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A382E2468A7D900D3E269 /* Question.swift */; };
-		CA6A38322468A7E800D3E269 /* QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A38312468A7E800D3E269 /* QuestionTests.swift */; };
-		CA6A38332468A7E800D3E269 /* QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A38312468A7E800D3E269 /* QuestionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +59,6 @@
 		CA4E38F92434DD7E00358485 /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4E39012434DD7F00358485 /* QuizEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6A382E2468A7D900D3E269 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		CA6A38312468A7E800D3E269 /* QuestionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +135,6 @@
 				7DDBCBBA235D9522005A338F /* FlowTest.swift */,
 				CA4E3845242F761100358485 /* RouterSpy.swift */,
 				CA4E3847242F79AA00358485 /* GameTest.swift */,
-				CA6A38312468A7E800D3E269 /* QuestionTests.swift */,
 			);
 			path = QuizEngineTests;
 			sourceTree = "<group>";
@@ -331,7 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DDBCBBB235D9522005A338F /* FlowTest.swift in Sources */,
-				CA6A38322468A7E800D3E269 /* QuestionTests.swift in Sources */,
 				CA4E3846242F761100358485 /* RouterSpy.swift in Sources */,
 				CA4E3848242F79AA00358485 /* GameTest.swift in Sources */,
 			);
@@ -354,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4E39142434DDF500358485 /* FlowTest.swift in Sources */,
-				CA6A38332468A7E800D3E269 /* QuestionTests.swift in Sources */,
 				CA4E39152434DDF500358485 /* RouterSpy.swift in Sources */,
 				CA4E39162434DDF500358485 /* GameTest.swift in Sources */,
 			);
