@@ -1,0 +1,4 @@
+framework module QuizEngine {
+  header "QuizEngine-Swift.h"
+  requires objc
+}

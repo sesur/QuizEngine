@@ -27,23 +27,6 @@
 		CA6A38302468A7D900D3E269 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A382E2468A7D900D3E269 /* Question.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7DDBCBAB235D93F9005A338F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7DDBCB97235D93F8005A338F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7DDBCB9F235D93F9005A338F;
-			remoteInfo = QuizEngine;
-		};
-		CA4E39032434DD7F00358485 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7DDBCB97235D93F8005A338F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA4E38F82434DD7E00358485;
-			remoteInfo = QuizEngine_iOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7DDBCBA0235D93F9005A338F /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDBCBA4235D93F9005A338F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +84,7 @@
 				7DDBCBA2235D93F9005A338F /* QuizEngine */,
 				7DDBCBAD235D93F9005A338F /* QuizEngineTests */,
 				7DDBCBA1235D93F9005A338F /* Products */,
+				CA6B7496248D7229004DFEC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +121,13 @@
 				CA4E3847242F79AA00358485 /* GameTest.swift */,
 			);
 			path = QuizEngineTests;
+			sourceTree = "<group>";
+		};
+		CA6B7496248D7229004DFEC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +179,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7DDBCBAC235D93F9005A338F /* PBXTargetDependency */,
 			);
 			name = QuizEngineTests;
 			productName = QuizEngineTests;
@@ -224,7 +214,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				CA4E39042434DD7F00358485 /* PBXTargetDependency */,
 			);
 			name = QuizEngine_iOSTests;
 			productName = QuizEngine_iOSTests;
@@ -355,19 +344,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7DDBCBAC235D93F9005A338F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7DDBCB9F235D93F9005A338F /* QuizEngine */;
-			targetProxy = 7DDBCBAB235D93F9005A338F /* PBXContainerItemProxy */;
-		};
-		CA4E39042434DD7F00358485 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA4E38F82434DD7E00358485 /* QuizEngine_iOS */;
-			targetProxy = CA4E39032434DD7F00358485 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7DDBCBB2235D93F9005A338F /* Debug */ = {
@@ -600,7 +576,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = QuizEngine/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,7 +603,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = QuizEngine/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -651,7 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YTY3T23FT4;
 				INFOPLIST_FILE = QuizEngineTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -672,7 +648,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YTY3T23FT4;
 				INFOPLIST_FILE = QuizEngineTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

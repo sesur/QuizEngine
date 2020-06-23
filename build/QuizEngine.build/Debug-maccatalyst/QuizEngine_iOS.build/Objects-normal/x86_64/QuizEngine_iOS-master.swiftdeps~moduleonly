@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "bd685712eeba53cca95f4e7180454037"
+build_time: [1591556206, 991057000]
+inputs:
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngine/Question.swift": [1589917090, 188843927]
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngine/Game.swift": [1585747102, 206130274]
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngine/Router.swift": [1585399488, 339652861]
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngine/Results.swift": [1585398666, 347628946]
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngine/Flow.swift": [1589308667, 617726606]

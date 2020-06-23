@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "d9fb7b47cf6d9f23d4adca06c49165a9"
+build_time: [1591556214, 455114000]
+inputs:
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngineTests/FlowTest.swift": [1585397393, 820949666]
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngineTests/RouterSpy.swift": [1585751152, 696742837]
+  "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/QuizEngineTests/GameTest.swift": [1585744480, 484717971]

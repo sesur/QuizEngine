@@ -1,0 +1,360 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FlowTest"
+provides-nominal:
+- "15QuizEngineTests8FlowTestC"
+provides-member:
+- ["15QuizEngineTests8FlowTestC", ""]
+provides-dynamic-lookup:
+- "makeSUT"
+- "router"
+- "test_startAndAnswerFirstAndSecondQuestion_routesToSecondAndThirdQuestion"
+- "test_startAndAnswerFirstQuestion_WithOneQuestion_DoesNotroutoToOtherDirection"
+- "test_startAndAnswerFirstQuestion_routesToSecondQuestion"
+- "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_routesToResults"
+- "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scores"
+- "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scoresWithRightAnswers"
+- "test_startAndAnwerFirstQuestions_WithTwoQuestions_doesNotRoutesToResults"
+- "test_startTwice_routesToFirstQuestion_Twice"
+- "test_startWithNoQuestion_doesNoRouteToQuestion"
+- "test_startWithNoQuestion_routesToResults"
+- "test_startWithOneQuestion_doesNotRoutesToResults"
+- "test_startWithOneQuestion_routesToCrrectQuestion"
+- "test_startWithOneQuestion_routesToCrrectQuestion_2"
+- "test_startWithOneQuestion_routesToResults"
+- "test_startWithTwoQuestion_routesToFirstQuestion"
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "FloatLiteralType"
+- "Flow"
+- "FlowTest"
+- "Int"
+- "IntegerLiteralType"
+- "RouterSpy"
+- "String"
+- !private "StringLiteralType"
+- !private "XCTAssertEqual"
+- !private "XCTAssertNil"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "Flow"]
+- ["s7CVarArgP", "RouterSpy"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "XCTAssertNil"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "makeSUT"]
+- !private ["s7CVarArgP", "router"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "Flow"]
+- ["s28CustomDebugStringConvertibleP", "RouterSpy"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNil"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "makeSUT"]
+- !private ["s28CustomDebugStringConvertibleP", "router"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "Flow"]
+- ["s23CustomStringConvertibleP", "RouterSpy"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNil"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "makeSUT"]
+- !private ["s23CustomStringConvertibleP", "router"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["SD", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SQ", "Flow"]
+- ["SQ", "RouterSpy"]
+- !private ["SQ", "String"]
+- !private ["SQ", "XCTAssertEqual"]
+- !private ["SQ", "XCTAssertNil"]
+- !private ["SQ", "XCTAssertTrue"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "makeSUT"]
+- !private ["SQ", "router"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["10QuizEngine4FlowC", "init"]
+- !private ["10QuizEngine4FlowC", "start"]
+- ["15QuizEngineTests8FlowTestC", "Flow"]
+- ["15QuizEngineTests8FlowTestC", "Int"]
+- ["15QuizEngineTests8FlowTestC", "RouterSpy"]
+- ["15QuizEngineTests8FlowTestC", "String"]
+- !private ["15QuizEngineTests8FlowTestC", "XCTAssertEqual"]
+- !private ["15QuizEngineTests8FlowTestC", "XCTAssertNil"]
+- !private ["15QuizEngineTests8FlowTestC", "XCTAssertTrue"]
+- ["15QuizEngineTests8FlowTestC", "deinit"]
+- ["15QuizEngineTests8FlowTestC", "init"]
+- ["15QuizEngineTests8FlowTestC", "makeSUT"]
+- ["15QuizEngineTests8FlowTestC", "router"]
+- ["15QuizEngineTests8FlowTestC", "test_startAndAnswerFirstAndSecondQuestion_routesToSecondAndThirdQuestion"]
+- ["15QuizEngineTests8FlowTestC", "test_startAndAnswerFirstQuestion_WithOneQuestion_DoesNotroutoToOtherDirection"]
+- ["15QuizEngineTests8FlowTestC", "test_startAndAnswerFirstQuestion_routesToSecondQuestion"]
+- ["15QuizEngineTests8FlowTestC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_routesToResults"]
+- ["15QuizEngineTests8FlowTestC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scores"]
+- ["15QuizEngineTests8FlowTestC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scoresWithRightAnswers"]
+- ["15QuizEngineTests8FlowTestC", "test_startAndAnwerFirstQuestions_WithTwoQuestions_doesNotRoutesToResults"]
+- ["15QuizEngineTests8FlowTestC", "test_startTwice_routesToFirstQuestion_Twice"]
+- ["15QuizEngineTests8FlowTestC", "test_startWithNoQuestion_doesNoRouteToQuestion"]
+- ["15QuizEngineTests8FlowTestC", "test_startWithNoQuestion_routesToResults"]
+- ["15QuizEngineTests8FlowTestC", "test_startWithOneQuestion_doesNotRoutesToResults"]
+- ["15QuizEngineTests8FlowTestC", "test_startWithOneQuestion_routesToCrrectQuestion"]
+- ["15QuizEngineTests8FlowTestC", "test_startWithOneQuestion_routesToCrrectQuestion_2"]
+- ["15QuizEngineTests8FlowTestC", "test_startWithOneQuestion_routesToResults"]
+- ["15QuizEngineTests8FlowTestC", "test_startWithTwoQuestion_routesToFirstQuestion"]
+- !private ["SH", "Flow"]
+- ["SH", "RouterSpy"]
+- !private ["SH", "String"]
+- !private ["SH", "XCTAssertEqual"]
+- !private ["SH", "XCTAssertNil"]
+- !private ["SH", "XCTAssertTrue"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "makeSUT"]
+- !private ["SH", "router"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- ["So8NSObjectC", "Flow"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "RouterSpy"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "XCTAssertNil"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "makeSUT"]
+- ["So8NSObjectC", "router"]
+- ["So8NSObjectC", "test_startAndAnswerFirstAndSecondQuestion_routesToSecondAndThirdQuestion"]
+- ["So8NSObjectC", "test_startAndAnswerFirstQuestion_WithOneQuestion_DoesNotroutoToOtherDirection"]
+- ["So8NSObjectC", "test_startAndAnswerFirstQuestion_routesToSecondQuestion"]
+- ["So8NSObjectC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_routesToResults"]
+- ["So8NSObjectC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scores"]
+- ["So8NSObjectC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scoresWithRightAnswers"]
+- ["So8NSObjectC", "test_startAndAnwerFirstQuestions_WithTwoQuestions_doesNotRoutesToResults"]
+- ["So8NSObjectC", "test_startTwice_routesToFirstQuestion_Twice"]
+- ["So8NSObjectC", "test_startWithNoQuestion_doesNoRouteToQuestion"]
+- ["So8NSObjectC", "test_startWithNoQuestion_routesToResults"]
+- ["So8NSObjectC", "test_startWithOneQuestion_doesNotRoutesToResults"]
+- ["So8NSObjectC", "test_startWithOneQuestion_routesToCrrectQuestion"]
+- ["So8NSObjectC", "test_startWithOneQuestion_routesToCrrectQuestion_2"]
+- ["So8NSObjectC", "test_startWithOneQuestion_routesToResults"]
+- ["So8NSObjectC", "test_startWithTwoQuestion_routesToFirstQuestion"]
+- !private ["So8NSObjectP", "Flow"]
+- ["So8NSObjectP", "RouterSpy"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- !private ["So8NSObjectP", "XCTAssertNil"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "makeSUT"]
+- !private ["So8NSObjectP", "router"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "isEmpty"]
+- !private ["10QuizEngine7ResultsV", "answers"]
+- !private ["10QuizEngine7ResultsV", "score"]
+- !private ["10QuizEngine6RouterP", "answerCallback"]
+- ["10QuizEngine6RouterP", "init"]
+- !private ["10QuizEngine6RouterP", "routedQuestions"]
+- !private ["10QuizEngine6RouterP", "routedResults"]
+- !private ["15QuizEngineTests9RouterSpyC", "answerCallback"]
+- ["15QuizEngineTests9RouterSpyC", "deinit"]
+- ["15QuizEngineTests9RouterSpyC", "init"]
+- !private ["15QuizEngineTests9RouterSpyC", "routedQuestions"]
+- !private ["15QuizEngineTests9RouterSpyC", "routedResults"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["So11XCTActivityP", "Flow"]
+- ["So11XCTActivityP", "RouterSpy"]
+- !private ["So11XCTActivityP", "String"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "XCTAssertNil"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "makeSUT"]
+- !private ["So11XCTActivityP", "router"]
+- !private ["So17XCTWaiterDelegateP", "Flow"]
+- ["So17XCTWaiterDelegateP", "RouterSpy"]
+- !private ["So17XCTWaiterDelegateP", "String"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNil"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "makeSUT"]
+- !private ["So17XCTWaiterDelegateP", "router"]
+- ["So6XCTestC", "Flow"]
+- ["So6XCTestC", "Int"]
+- ["So6XCTestC", "RouterSpy"]
+- ["So6XCTestC", "String"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "XCTAssertNil"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "makeSUT"]
+- ["So6XCTestC", "router"]
+- ["So6XCTestC", "test_startAndAnswerFirstAndSecondQuestion_routesToSecondAndThirdQuestion"]
+- ["So6XCTestC", "test_startAndAnswerFirstQuestion_WithOneQuestion_DoesNotroutoToOtherDirection"]
+- ["So6XCTestC", "test_startAndAnswerFirstQuestion_routesToSecondQuestion"]
+- ["So6XCTestC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_routesToResults"]
+- ["So6XCTestC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scores"]
+- ["So6XCTestC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scoresWithRightAnswers"]
+- ["So6XCTestC", "test_startAndAnwerFirstQuestions_WithTwoQuestions_doesNotRoutesToResults"]
+- ["So6XCTestC", "test_startTwice_routesToFirstQuestion_Twice"]
+- ["So6XCTestC", "test_startWithNoQuestion_doesNoRouteToQuestion"]
+- ["So6XCTestC", "test_startWithNoQuestion_routesToResults"]
+- ["So6XCTestC", "test_startWithOneQuestion_doesNotRoutesToResults"]
+- ["So6XCTestC", "test_startWithOneQuestion_routesToCrrectQuestion"]
+- ["So6XCTestC", "test_startWithOneQuestion_routesToCrrectQuestion_2"]
+- ["So6XCTestC", "test_startWithOneQuestion_routesToResults"]
+- ["So6XCTestC", "test_startWithTwoQuestion_routesToFirstQuestion"]
+- ["So10XCTestCaseC", "Flow"]
+- ["So10XCTestCaseC", "Int"]
+- ["So10XCTestCaseC", "RouterSpy"]
+- ["So10XCTestCaseC", "String"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- !private ["So10XCTestCaseC", "XCTAssertNil"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "makeSUT"]
+- ["So10XCTestCaseC", "router"]
+- ["So10XCTestCaseC", "test_startAndAnswerFirstAndSecondQuestion_routesToSecondAndThirdQuestion"]
+- ["So10XCTestCaseC", "test_startAndAnswerFirstQuestion_WithOneQuestion_DoesNotroutoToOtherDirection"]
+- ["So10XCTestCaseC", "test_startAndAnswerFirstQuestion_routesToSecondQuestion"]
+- ["So10XCTestCaseC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_routesToResults"]
+- ["So10XCTestCaseC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scores"]
+- ["So10XCTestCaseC", "test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_scoresWithRightAnswers"]
+- ["So10XCTestCaseC", "test_startAndAnwerFirstQuestions_WithTwoQuestions_doesNotRoutesToResults"]
+- ["So10XCTestCaseC", "test_startTwice_routesToFirstQuestion_Twice"]
+- ["So10XCTestCaseC", "test_startWithNoQuestion_doesNoRouteToQuestion"]
+- ["So10XCTestCaseC", "test_startWithNoQuestion_routesToResults"]
+- ["So10XCTestCaseC", "test_startWithOneQuestion_doesNotRoutesToResults"]
+- ["So10XCTestCaseC", "test_startWithOneQuestion_routesToCrrectQuestion"]
+- ["So10XCTestCaseC", "test_startWithOneQuestion_routesToCrrectQuestion_2"]
+- ["So10XCTestCaseC", "test_startWithOneQuestion_routesToResults"]
+- ["So10XCTestCaseC", "test_startWithTwoQuestion_routesToFirstQuestion"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Flow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "RouterSpy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeSUT"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "router"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Flow"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RouterSpy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertNil"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertTrue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeSUT"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "router"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "10QuizEngine4FlowC"
+- "15QuizEngineTests8FlowTestC"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "10QuizEngine7ResultsV"
+- "10QuizEngine6RouterP"
+- "15QuizEngineTests9RouterSpyC"
+- !private "ST"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/sergiusuru/Sergiu/Learn Swift/Portofolio/Quiz/QuizEngine/build/Debug/QuizEngine.framework/Modules/QuizEngine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "251b24e762f27779e939fb84b06f3d54"
