@@ -1,11 +1,3 @@
-//
-//  Flow.swift
-//  QuizEngine
-//
-//  Created by Sergiu on 10/21/19.
-//  Copyright © 2019 Sergiu. All rights reserved.
-//
-
 import Foundation
 
 class Flow<Question, Answer, R: Router> where R.Question == Question, R.Answer == Answer {

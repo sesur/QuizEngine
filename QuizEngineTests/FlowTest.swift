@@ -1,11 +1,3 @@
-//
-//  FlowTest.swift
-//  QuizEngineTests
-//
-//  Created by Sergiu on 10/21/19.
-//  Copyright © 2019 Sergiu. All rights reserved.
-//
-
 import Foundation
 import XCTest
 @testable import QuizEngine
@@ -41,7 +33,6 @@ class FlowTest: XCTestCase {
         XCTAssertEqual(router.routedQuestions, ["Q1", "Q1"])
     }
     
-    
     func test_startAndAnswerFirstQuestion_routesToSecondQuestion() {
         let sut = makeSUT(question: ["Q1","Q2"])
         sut.start()
@@ -57,13 +48,11 @@ class FlowTest: XCTestCase {
         XCTAssertEqual(router.routedQuestions, ["Q1", "Q2", "Q3"])
     }
     
-    
     func test_startAndAnswerFirstQuestion_WithOneQuestion_DoesNotroutoToOtherDirection() {
         makeSUT(question: ["Q1"]).start()
         router.answerCallback("A1")
         XCTAssertEqual(router.routedQuestions, ["Q1"])
     }
-    
     
     func test_startWithNoQuestion_routesToResults() {
         makeSUT(question: []).start()
@@ -77,7 +66,6 @@ class FlowTest: XCTestCase {
         XCTAssertEqual(router.routedResults!.answers, ["Q1": "A1"])
     }
     
-    
     func test_startWithOneQuestion_doesNotRoutesToResults() {
         makeSUT(question: ["Q1"]).start()
         XCTAssertNil(router.routedResults)
@@ -88,7 +76,6 @@ class FlowTest: XCTestCase {
         router.answerCallback("A1")
         XCTAssertNil(router.routedResults)
     }
-    
     
     func test_startAndAnwerFirstAndSecondQuestions_WithTwoQuestions_routesToResults() {
         let sut = makeSUT(question: ["Q1", "Q2"])
@@ -120,7 +107,6 @@ class FlowTest: XCTestCase {
         
         XCTAssertEqual(receivedCorrectAnswer, ["Q1": "A1", "Q2": "A2"])
     }
-    
     
     //MARK:- Helper method
     
